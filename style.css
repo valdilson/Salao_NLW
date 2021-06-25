@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 256;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -532,6 +532,12 @@ footer .developer {
   color: var(--text-color-light);
   text-align: center;
   color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer .developer .copyright a {
+  color: black;
+  text-align: center;
   margin-bottom: 0.75rem;
 }
 
